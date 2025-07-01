@@ -1,3 +1,5 @@
+drop table new_products;
+
 CREATE TABLE new_products (
     prod_id        NUMBER(4)     NOT NULL,
     prod_name      VARCHAR2(60),
